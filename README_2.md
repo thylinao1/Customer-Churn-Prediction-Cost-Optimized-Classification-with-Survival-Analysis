@@ -225,20 +225,6 @@ This project follows the BCG X data science methodology:
 4. **Modeling & Evaluation** - Trained Random Forest with hyperparameter optimization
 5. **Insights & Recommendations** - Translated findings into business actions
 
-## 🤝 Contributing
-
-This is a completed case study project. Feel free to fork and adapt for your own learning!
-
-## 📧 Contact
-
-**Project Author:** [Your Name]  
-**LinkedIn:** [Your LinkedIn]  
-**Email:** [Your Email]
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
 ## 🙏 Acknowledgments
 
 - **BCG X** - For the project framework and case study structure
@@ -246,8 +232,3 @@ This project is open source and available under the MIT License.
 - **scikit-learn** - Machine learning library
 - **Jupyter** - Interactive computing environment
 
----
-
-**Note:** This project was completed as part of a BCG X data science virtual experience program. All data is synthetic and used for educational purposes.
-
-⭐ If you found this project helpful, please star the repository!
