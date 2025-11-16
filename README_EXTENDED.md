@@ -280,35 +280,6 @@ powerco-churn-prediction/
 
 ---
 
-## Installation
-
-### Prerequisites
-```bash
-Python 3.8+
-Jupyter Notebook
-```
-
-### Dependencies
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-pip install xgboost imbalanced-learn lifelines
-```
-
-### Running the Analysis
-
-```bash
-# 1. Exploratory Data Analysis
-jupyter notebook powerco_eda.ipynb
-
-# 2. Feature Engineering
-jupyter notebook powerco_feature_engineering.ipynb
-
-# 3. Modeling (main analysis)
-jupyter notebook powerco_random_forest_model.ipynb
-```
-
----
-
 ## Methodology
 
 This project follows rigorous data science practices:
@@ -382,34 +353,3 @@ This project follows rigorous data science practices:
    - Understanding CLV, campaign costs, retention rates
    - Data science without business impact is just math
 
----
-
-## Technologies Used
-
-- **Languages:** Python 3.8+
-- **ML Libraries:** scikit-learn, XGBoost, imbalanced-learn
-- **Survival Analysis:** lifelines (Kaplan-Meier, Cox PH)
-- **Data Processing:** pandas, NumPy
-- **Visualization:** matplotlib, seaborn
-- **Development:** Jupyter Notebook
-
----
-
-## Acknowledgments
-
-- **BCG X** — Virtual Experience program framework
-- **PowerCo** — Anonymized client case study
-- **scikit-learn** — ML implementation
-- **lifelines** — Survival analysis library
-
----
-
-## Contact
-
-For questions about methodology or implementation details, feel free to reach out.
-
----
-
-*BCG X Data Science Virtual Experience, extended with SMOTE, Cox Proportional Hazards survival analysis, cost-sensitive threshold optimization, and expected value framework.*
-
-**TL;DR:** Turned a 7% recall model into 94% recall by optimizing for business costs instead of ML metrics. Saved £13.7M. Price isn't the problem—it's how you acquired the customer.
